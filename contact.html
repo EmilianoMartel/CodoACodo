@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    CINEFANS
+{% endblock %}
+
+
+{% block bodyChange %}
+<div>
+    <div>
+      <h3></h3>
+      <p ></p>
+
+    </div>
+</div>
+
+{% if errors %}
+<div class="alert alert-success" role="alert">
+    {{errors}}
+</div>
+{% endif %}
+
+{% endblock %}
